@@ -1,0 +1,89 @@
+h1{
+    color: midnightblue;
+    size: 100px;
+}
+h2{
+    color: coral;
+}
+h3{
+    color: brown;
+}
+p{
+    color: deeppink;
+}
+td{
+    color: red;
+}
+body{
+    font-size: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+ul{
+    margin-left: 30px;
+    list-style-image: url(https://www.gifsanimados.org/data/media/111/flecha-imagen-animada-0233.gif)
+}
+.bordesRedondeados{
+    border-radius: 20px;
+}
+
+.claseUno{
+background-color: lightsteelblue;
+}
+.parrafo{
+  background-color: hotpink; 
+}
+article{
+    color: #000;
+}
+
+.normal{
+    font-style: normal;
+}
+.cursiva{
+    font-style: italic;
+}
+.negrita{
+    font-weight: bold;
+}
+.textogrande{
+    font-size: 40px;
+}
+.fondo{
+    background-color: rgb(223, 188, 240);
+}
+#uno img{
+width: 400px;
+height: 350px;
+margin: 40px;
+}
+#dos img{
+    width: 400px;
+    height: 350px;
+    margin: 40px;
+}
+#videouno video{
+    width: auto;
+    margin: 50px 325px 40px; /*top right bottom left*/
+}
+#tres img{
+    width: 350px;
+    height: 300px;
+    margin: 40px;
+    border: dashed 10px;
+}
+.padre-flex{
+    display: flex;
+    flex-direction: row;
+    background-color: aqua;
+}
+
+#grid1{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+}
+div{
+    border: 1px solid black;
+    background-color: blueviolet;
+    color: #fff;
+}

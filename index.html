@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="home" content="Tienda online de ropa femenina. Variedad de modelos.Envios a todo el pais" />
+  <meta name="keywork" content="ropa, mujer, online, envio"/>
+  <link rel="stylesheet" href="estilos.css" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" />
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous" />
+  <link href="https://fonts.googleapis.com/css2?family=Orelega+One&display=swap" rel="stylesheet" />
+  <title>Jisabel</title>
+</head>
+
+<body class="claseUno">
+  <!--Aca comienza la barra de navegacion-->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="index.html"><img src="multimedia2/LogoJisabel200.png" alt="logo" /></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="contacto.html">Contacto</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Link</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+              aria-expanded="false">
+              Dropdown
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="#">Action</a></li>
+              <li><a class="dropdown-item" href="#">Another action</a></li>
+              <li>
+                <hr class="dropdown-divider" />
+              </li>
+              <li>
+                <a class="dropdown-item" href="#">Something else here</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+          </li>
+        </ul>
+        <form class="d-flex">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
+          <button class="btn btn-outline-success" type="submit">
+            Search
+          </button>
+        </form>
+      </div>
+    </div>
+  </nav>
+  <!--Termina la barra-->
+
+  <div class="container">
+    <h1>Temporada 2021</h1>
+  </div>
+  <div id="videouno">
+    <video src="multimedia/video/Dynamic Fashion Intro _.mp4" width="400" height="400" controls></video>
+  </div>
+  <hr />
+
+  <section class="parrafo">
+    <article class="normal" id="texto">
+      ¨ Para ser irremplazable, uno siempre debe buscar ser diferente¨ -Coco Chanel
+    </article>
+    <hr />
+  </section>
+
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <p class="text-center">MODELOS</p>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-4">
+        <div class="card" style="width: 18rem">
+          <img src="multimedia2/camisolas.jpg" class="card-img-top" alt="..." />
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">
+              Some quick example text to build on the card title and make up
+              the bulk of the card's content.
+            </p>
+            <a href="#" class="btn btn-primary">Go somewhere</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-4">
+        <div class="card" style="width: 18rem">
+          <img src="multimedia2/2.jpg" class="card-img-top" alt="imagen1" />
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">
+              Some quick example text to build on the card title and make up
+              the bulk of the card's content.
+            </p>
+            <a href="#" class="btn btn-primary">Go somewhere</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-4">
+        <div class="card" style="width: 18rem">
+          <img src="multimedia2/3.jpg" class="card-img-top" alt="..." />
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">
+              Some quick example text to build on the card title and make up
+              the bulk of the card's content.
+            </p>
+            <a href="#" class="btn btn-primary">Go somewhere</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="cointaner">
+    <h3>FORMULARIOS</h3>
+    <table border="solid 1px black" cellspacing="15" cellpadding="10">
+      <form action="">
+        <input type="text" name="nombre" placeholder="nombre" />
+        <input type="text" name="apellido" placeholder="apellido" />
+        <input type="email" name="email" placeholder="email" />
+        <input type="password" placeholder="password" />
+        <br />
+        <textarea name="comentarios" cols="30" rows="10"></textarea>
+        <br />
+        <input type="submit" value="Enviar" />
+        <input type="reset" value="Reseteo" />
+        <input type="button" value="sin accion" />
+      </form>
+    </table>
+  </div>
+
+</body>
+
+</html>
